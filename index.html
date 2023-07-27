@@ -26,10 +26,10 @@ scene.clearColor = new BABYLON.Color3(0.5, 0.8, 0.5)
 
 //===TRACK CODE===//
 
-var _xFn = function(t) {var fns = [function(t) {return (Math.pow((1-t),3)*0.6225)+(3*t*Math.pow((1-t),2)*0.7975)+(3*Math.pow(t,2)*(1-t)*0.0425)+(Math.pow(t,3)*0.1825)},function(t) {return (Math.pow((1-t),3)*0.1825)+(3*t*Math.pow((1-t),2)*0.3225)+(3*Math.pow(t,2)*(1-t)*0.3525)+(Math.pow(t,3)*0.3525)},function(t) {return (Math.pow((1-t),3)*0.3525)+(3*t*Math.pow((1-t),2)*0.3525)+(3*Math.pow(t,2)*(1-t)*0.44)+(Math.pow(t,3)*0.4875)},function(t) {return (Math.pow((1-t),3)*0.4875)+(3*t*Math.pow((1-t),2)*0.535)+(3*Math.pow(t,2)*(1-t)*0.8575)+(Math.pow(t,3)*0.8575)},function(t) {return (Math.pow((1-t),3)*0.8575)+(3*t*Math.pow((1-t),2)*0.8575)+(3*Math.pow(t,2)*(1-t)*0.67)+(Math.pow(t,3)*0.6675)}];var i = Math.max(0,Math.min(4, Math.floor(t * 5)));return fns[i]((t - (i/5)) * 5);};
-var _yFn = function(t) {var fns = [function(t) {return (Math.pow((1-t),3)*0.3678125)+(3*t*Math.pow((1-t),2)*0.2028125)+(3*Math.pow(t,2)*(1-t)*0.9353125)+(Math.pow(t,3)*0.3828125)},function(t) {return (Math.pow((1-t),3)*0.3828125)+(3*t*Math.pow((1-t),2)*-0.1696875)+(3*Math.pow(t,2)*(1-t)*0.3553125)+(Math.pow(t,3)*0.3553125)},function(t) {return (Math.pow((1-t),3)*0.3553125)+(3*t*Math.pow((1-t),2)*0.3553125)+(3*Math.pow(t,2)*(1-t)*0.7203125)+(Math.pow(t,3)*0.7728125)},function(t) {return (Math.pow((1-t),3)*0.7728125)+(3*t*Math.pow((1-t),2)*0.8253125)+(3*Math.pow(t,2)*(1-t)*0.5153125)+(Math.pow(t,3)*0.5128125)},function(t) {return (Math.pow((1-t),3)*0.5128125)+(3*t*Math.pow((1-t),2)*0.5103125)+(3*Math.pow(t,2)*(1-t)*0.1403125)+(Math.pow(t,3)*0.1378125)}];var i = Math.max(0,Math.min(4, Math.floor(t * 5)));return fns[i]((t - (i/5)) * 5);};
+var _xFn = function(t) {var fns = [function(t) {return (Math.pow((1-t),3)*0.025)+(3*t*Math.pow((1-t),2)*0.03)+(3*Math.pow(t,2)*(1-t)*0.3825)+(Math.pow(t,3)*0.3475)},function(t) {return (Math.pow((1-t),3)*0.3475)+(3*t*Math.pow((1-t),2)*0.3125)+(3*Math.pow(t,2)*(1-t)*0.7325)+(Math.pow(t,3)*0.7325)},function(t) {return (Math.pow((1-t),3)*0.7325)+(3*t*Math.pow((1-t),2)*0.7325)+(3*Math.pow(t,2)*(1-t)*0.4725)+(Math.pow(t,3)*0.5)},function(t) {return (Math.pow((1-t),3)*0.5)+(3*t*Math.pow((1-t),2)*0.5275)+(3*Math.pow(t,2)*(1-t)*0.26)+(Math.pow(t,3)*0.26)},function(t) {return (Math.pow((1-t),3)*0.26)+(3*t*Math.pow((1-t),2)*0.26)+(3*Math.pow(t,2)*(1-t)*0.37)+(Math.pow(t,3)*0.365)},function(t) {return (Math.pow((1-t),3)*0.365)+(3*t*Math.pow((1-t),2)*0.36)+(3*Math.pow(t,2)*(1-t)*0.2225)+(Math.pow(t,3)*0.2225)},function(t) {return (Math.pow((1-t),3)*0.2225)+(3*t*Math.pow((1-t),2)*0.2225)+(3*Math.pow(t,2)*(1-t)*0.28)+(Math.pow(t,3)*0.28)}];var i = Math.max(0,Math.min(6, Math.floor(t * 7)));return fns[i]((t - (i/7)) * 7);};
+var _yFn = function(t) {var fns = [function(t) {return (Math.pow((1-t),3)*0.2)+(3*t*Math.pow((1-t),2)*0.1903125)+(3*Math.pow(t,2)*(1-t)*0.6603125)+(Math.pow(t,3)*0.5828125)},function(t) {return (Math.pow((1-t),3)*0.5828125)+(3*t*Math.pow((1-t),2)*0.5053125)+(3*Math.pow(t,2)*(1-t)*0.3378125)+(Math.pow(t,3)*0.3378125)},function(t) {return (Math.pow((1-t),3)*0.3378125)+(3*t*Math.pow((1-t),2)*0.3378125)+(3*Math.pow(t,2)*(1-t)*0.2353125)+(Math.pow(t,3)*0.1628125)},function(t) {return (Math.pow((1-t),3)*0.1628125)+(3*t*Math.pow((1-t),2)*0.0903125)+(3*Math.pow(t,2)*(1-t)*0.1528125)+(Math.pow(t,3)*0.1528125)},function(t) {return (Math.pow((1-t),3)*0.1528125)+(3*t*Math.pow((1-t),2)*0.1528125)+(3*Math.pow(t,2)*(1-t)*0.4153125)+(Math.pow(t,3)*0.3053125)},function(t) {return (Math.pow((1-t),3)*0.3053125)+(3*t*Math.pow((1-t),2)*0.1953125)+(3*Math.pow(t,2)*(1-t)*0.2753125)+(Math.pow(t,3)*0.2753125)},function(t) {return (Math.pow((1-t),3)*0.2753125)+(3*t*Math.pow((1-t),2)*0.2753125)+(3*Math.pow(t,2)*(1-t)*0.3978125)+(Math.pow(t,3)*0.3978125)}];var i = Math.max(0,Math.min(6, Math.floor(t * 7)));return fns[i]((t - (i/7)) * 7);};
 /* START CURVE DATA 
-{"start":[249,147.125],"init":[319,81.125],"segments":[{"a":[17,374.125],"b":[73,153.125]},{"a":[141,142.125],"b":[141,142.125]},{"a":[176,288.125],"b":[195,309.125]},{"a":[343,206.125],"b":[343,205.125]},{"a":[268,56.125],"b":[267,55.125]}]}
+{"start":[10,80],"init":[12,76.125],"segments":[{"a":[153,264.125],"b":[139,233.125]},{"a":[293,135.125],"b":[293,135.125]},{"a":[189,94.125],"b":[200,65.125]},{"a":[104,61.125],"b":[104,61.125]},{"a":[148,166.125],"b":[146,122.125]},{"a":[89,110.125],"b":[89,110.125]},{"a":[112,159.125],"b":[112,159.125]}]}
    END CURVE DATA */
 
 //===END TRACK CODE===//
@@ -126,6 +126,31 @@ minT = t;
 return minT;
 }
 
+function derivAngle(t, xFn, zFn) {
+function derive(f, x) {
+var h = 2.2e-10;
+return (f(x + h) - f(x - h)) / (2 * h);
+}
+return Math.atan2(derive(zFn, t), derive(xFn, t));
+}
+
+function rampAt(xFn, zFn, t, angle, scene) {
+var ramp = BABYLON.MeshBuilder.CreateBox('ramp', {
+height: 8,
+width: .25,
+depth: 12
+}, scene);
+ramp.material = new BABYLON.StandardMaterial("rampMaterial", scene);
+ramp.material.diffuseColor = new BABYLON.Color3(1, 1, 0);
+ramp.physicsImpostor = new BABYLON.PhysicsImpostor(ramp, BABYLON.PhysicsImpostor.BoxImpostor, {
+mass: 0,
+restitution: 0.9
+}, scene);
+ramp.position = new BABYLON.Vector3(xFn(t), 3.2, zFn(t));
+
+ramp.rotation.z = angle;
+ramp.rotation.y = -derivAngle(t, xFn, zFn);
+}
 
 engine.runRenderLoop(scene.render.bind(scene));
 window.addEventListener('resize', engine.resize.bind(engine));

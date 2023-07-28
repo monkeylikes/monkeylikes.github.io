@@ -126,6 +126,7 @@ var currentT = tLookup(xFn, zFn, 500, playerSphere.position.x, playerSphere.posi
 var angle = (derivAngle(currentT, xFn, zFn) - (Math.PI));
 camera.alpha += (angle - camera.alpha) / 32;
 
+
 if (currentT > 0.99) {
 win();
 }
